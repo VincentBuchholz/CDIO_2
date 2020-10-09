@@ -99,6 +99,7 @@ public class Game {
                 accountPlayerOne.AddToAccount(650);
             }
             System.out.println(playerOne + " your score is now: " + accountPlayerOne);
+            System.out.println("");
 
             if (accountPlayerOne.getBalance() >= 3000) {
                 System.out.println(playerOne + " you win!");
@@ -171,6 +172,7 @@ public class Game {
                 accountPlayerTwo.AddToAccount(650);
             }
             System.out.println(playerTwo + " your score is now: " + accountPlayerTwo);
+            System.out.println("");
 
             if (accountPlayerTwo.getBalance() >= 3000) {
                 System.out.println(playerTwo + " you win!");
