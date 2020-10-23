@@ -45,27 +45,27 @@ public class Game {
 
 
             if (diePlayerOne.Sum() == 2) {
-                System.out.println("Tower");
+                System.out.println("You have landed on the field Tower and receive 250 points");
                 accountPlayerOne.AddToAccount(250);
             }
 
             if (diePlayerOne.Sum() == 3) {
-                System.out.println("Crater");
+                System.out.println("You have landed on the field Crater and receive 100 points");
                 accountPlayerOne.SubbFromAccount(100);
             }
 
             if (diePlayerOne.Sum() == 4) {
-                System.out.println("Palace gates");
+                System.out.println("You have landed on the field Palace gates and receive 100 points");
                 accountPlayerOne.AddToAccount(100);
             }
 
             if (diePlayerOne.Sum() == 5) {
-                System.out.println("Cold Desert");
+                System.out.println("You have landed on the field Cold Desert and receive 20 points");
                 accountPlayerOne.SubbFromAccount(20);
             }
 
             if (diePlayerOne.Sum() == 6) {
-                System.out.println("Walled city");
+                System.out.println("You have landed on the field Walled city and receive 180 points");
                 accountPlayerOne.AddToAccount(180);
             }
 
@@ -118,27 +118,27 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 2) {
-                System.out.println("Tower");
+                System.out.println("You have landed on the field Tower and receive 250 points");
                 accountPlayerTwo.AddToAccount(250);
             }
 
             if (diePlayerTwo.Sum() == 3) {
-                System.out.println("Crater");
+                System.out.println("You have landed on the field Crater and receive 100 points");
                 accountPlayerTwo.SubbFromAccount(100);
             }
 
             if (diePlayerTwo.Sum() == 4) {
-                System.out.println("Palace gates");
+                System.out.println("You have landed on the field Palace gates and receive 100 points");
                 accountPlayerTwo.AddToAccount(100);
             }
 
             if (diePlayerTwo.Sum() == 5) {
-                System.out.println("Cold Desert");
+                System.out.println("You have landed on the field Cold Desert and receive 20 points");
                 accountPlayerTwo.SubbFromAccount(20);
             }
 
             if (diePlayerTwo.Sum() == 6) {
-                System.out.println("Walled city");
+                System.out.println("You have landed on the field Walled city and receive 180 points");
                 accountPlayerTwo.AddToAccount(180);
             }
 
