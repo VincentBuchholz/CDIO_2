@@ -70,45 +70,45 @@ public class Game {
             }
 
             if (diePlayerOne.Sum() == 7) {
-                System.out.println("Monastery");
+                System.out.println("You have landed on the field Monastery and get another turn");
 
             }
 
             if (diePlayerOne.Sum() == 8) {
-                System.out.println("Black cave");
+                System.out.println("You have landed on the field Black cave and receive 70 points");
                 accountPlayerOne.SubbFromAccount(70);
             }
 
             if (diePlayerOne.Sum() == 9) {
-                System.out.println("Huts in the mountain");
+                System.out.println("You have landed on the field Huts in the mountain and receive 60 points");
                 accountPlayerOne.AddToAccount(60);
             }
 
             if (diePlayerOne.Sum() == 10) {
-                System.out.println("The Werewall (werewolf-wall)");
+                System.out.println("You have landed on the field The Werewall (werewolf-wall) and receive 80 points");
                 accountPlayerOne.SubbFromAccount(80);
             }
 
             if (diePlayerOne.Sum() == 11) {
-                System.out.println("The pit");
+                System.out.println("You have landed on the field The pit and receive 50 points");
                 accountPlayerOne.SubbFromAccount(50);
             }
 
             if (diePlayerOne.Sum() == 12) {
-                System.out.println("Goldmine");
+                System.out.println("You have landed on the field Goldmine and receive 650 points");
                 accountPlayerOne.AddToAccount(650);
             }
-            System.out.println(playerOne + " your score is now: " + accountPlayerOne);
+            System.out.println(playerOne + " Your score is now: " + accountPlayerOne);
             System.out.println("");
 
             if (accountPlayerOne.getBalance() >= 3000) {
-                System.out.println(playerOne + " you win!");
+                System.out.println(playerOne + " You win!");
                 break;
             }
 
 
             //player two
-            System.out.print(playerTwo + " it's your turn, press enter to roll the dice: ");
+            System.out.print(playerTwo + " It's your turn, press enter to roll the dice: ");
             String roll2 = input.nextLine();
 
 
@@ -143,39 +143,39 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 7) {
-                System.out.println("Monastery");
+                System.out.println("You have landed on the field Monastery and get another turn");
 
             }
 
             if (diePlayerTwo.Sum() == 8) {
-                System.out.println("Black cave");
+                System.out.println("You have landed on the field Black cave and receive 70 points");
                 accountPlayerTwo.SubbFromAccount(70);
             }
 
             if (diePlayerTwo.Sum() == 9) {
-                System.out.println("Huts in the mountain");
+                System.out.println("You have landed on the field Huts in the mountain and receive 60 points");
                 accountPlayerTwo.AddToAccount(60);
             }
 
             if (diePlayerTwo.Sum() == 10) {
-                System.out.println("The Werewall (werewolf-wall)");
+                System.out.println("You have landed on the field The Werewall (werewolf-wall) and receive 80 points");
                 accountPlayerTwo.SubbFromAccount(80);
             }
 
             if (diePlayerTwo.Sum() == 11) {
-                System.out.println("The pit");
+                System.out.println("You have landed on the field The pit and receive 50 points");
                 accountPlayerTwo.SubbFromAccount(50);
             }
 
             if (diePlayerTwo.Sum() == 12) {
-                System.out.println("Goldmine");
+                System.out.println("You have landed on the field Goldmine and receive 650 points");
                 accountPlayerTwo.AddToAccount(650);
             }
-            System.out.println(playerTwo + " your score is now: " + accountPlayerTwo);
+            System.out.println(playerTwo + " Your score is now: " + accountPlayerTwo);
             System.out.println("");
 
             if (accountPlayerTwo.getBalance() >= 3000) {
-                System.out.println(playerTwo + " you win!");
+                System.out.println(playerTwo + " You win!");
                 break;
             }
 
