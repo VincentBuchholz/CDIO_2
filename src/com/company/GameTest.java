@@ -1,5 +1,4 @@
-
-    package com.company;
+ package com.company;
 import com.company.Account;
 import com.company.Player;
 import java.util.Scanner;
