@@ -1,12 +1,10 @@
 package com.company;
 
 import java.util.Scanner;
-
-public class GameTest {
-    package com.company;
 import com.company.Account;
 import com.company.Player;
 import java.util.Scanner;
+
     public class GameTest {
 
         public static void main(String[] args) {
@@ -65,7 +63,6 @@ import java.util.Scanner;
         */
 
         }
-
     }
 
-}
+
