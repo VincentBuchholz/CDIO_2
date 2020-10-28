@@ -50,7 +50,7 @@ public class Game {
             }
 
             if (diePlayerOne.Sum() == 3) {
-                System.out.println("Crater");
+                System.out.println("You have landed on the field Crater and receive 100 coins");
                 accountPlayerOne.SubbFromAccount(100);
             }
 
@@ -123,7 +123,7 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 3) {
-                System.out.println("Crater");
+                System.out.println("You have landed on the field Crater and receive 100 coins");
                 accountPlayerTwo.SubbFromAccount(100);
             }
 
