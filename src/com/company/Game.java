@@ -71,32 +71,32 @@ public class Game {
             }
 
             if (diePlayerOne.Sum() == 7) {
-                System.out.println("Monastery");
+                System.out.println("You have landed on the field Monastery and receive 0 coins");
 
             }
 
             if (diePlayerOne.Sum() == 8) {
-                System.out.println("Black cave");
+                System.out.println("You have landed on the field Black cave and lose 70 coins");
                 accountPlayerOne.SubbFromAccount(70);
             }
 
             if (diePlayerOne.Sum() == 9) {
-                System.out.println("Huts in the mountain");
+                System.out.println("You have landed on the field Huts in the Mountain and receive 60 coins");
                 accountPlayerOne.AddToAccount(60);
             }
 
             if (diePlayerOne.Sum() == 10) {
-                System.out.println("The Werewall (werewolf-wall)");
+                System.out.println("You have landed on the field The Werewall (werewolf-wall) and lose 80 coins. But you are granted another turn");
                 accountPlayerOne.SubbFromAccount(80);
             }
 
             if (diePlayerOne.Sum() == 11) {
-                System.out.println("The pit");
+                System.out.println("You have landed on the field The Pit and lose 50 coins");
                 accountPlayerOne.SubbFromAccount(50);
             }
 
             if (diePlayerOne.Sum() == 12) {
-                System.out.println("Goldmine");
+                System.out.println("You have landed on the field Goldmine and receive 650 coins");
                 accountPlayerOne.AddToAccount(650);
             }
             System.out.println(playerOne + " your score is now: " + accountPlayerOne);
@@ -144,32 +144,32 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 7) {
-                System.out.println("Monastery");
+                System.out.println("You have landed on the field Monastery and receive 0 coins");
 
             }
 
             if (diePlayerTwo.Sum() == 8) {
-                System.out.println("Black cave");
+                System.out.println("You have landed on the field Black cave and lose 70 coins");
                 accountPlayerTwo.SubbFromAccount(70);
             }
 
             if (diePlayerTwo.Sum() == 9) {
-                System.out.println("Huts in the mountain");
+                System.out.println("You have landed on the field Huts in the Mountain and receive 60 coins");
                 accountPlayerTwo.AddToAccount(60);
             }
 
             if (diePlayerTwo.Sum() == 10) {
-                System.out.println("The Werewall (werewolf-wall)");
+                System.out.println("You have landed on the field The Werewall (werewolf-wall) and lose 80 coins. But you are granted another turn");
                 accountPlayerTwo.SubbFromAccount(80);
             }
 
             if (diePlayerTwo.Sum() == 11) {
-                System.out.println("The pit");
+                System.out.println("You have landed on the field The Pit and lose 50 coins");
                 accountPlayerTwo.SubbFromAccount(50);
             }
 
             if (diePlayerTwo.Sum() == 12) {
-                System.out.println("Goldmine");
+                System.out.println("You have landed on the field Goldmine and receive 650 coins");
                 accountPlayerTwo.AddToAccount(650);
             }
             System.out.println(playerTwo + " your score is now: " + accountPlayerTwo);
