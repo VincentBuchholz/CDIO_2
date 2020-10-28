@@ -55,17 +55,17 @@ public class Game {
             }
 
             if (diePlayerOne.Sum() == 4) {
-                System.out.println("Palace gates");
+                System.out.println("You have landed on the field Palace gates and receive 100 coins");
                 accountPlayerOne.AddToAccount(100);
             }
 
             if (diePlayerOne.Sum() == 5) {
-                System.out.println("Cold Desert");
+                System.out.println("You have landed on the field Cold Desert and receive 20 coins");
                 accountPlayerOne.SubbFromAccount(20);
             }
 
             if (diePlayerOne.Sum() == 6) {
-                System.out.println("Walled city");
+                System.out.println("You have landed on the field Walled city and receive 180 coins");
                 accountPlayerOne.AddToAccount(180);
             }
 
@@ -128,17 +128,17 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 4) {
-                System.out.println("Palace gates");
+                System.out.println("You have landed on the field Palace gates and receive 100 coins");
                 accountPlayerTwo.AddToAccount(100);
             }
 
             if (diePlayerTwo.Sum() == 5) {
-                System.out.println("Cold Desert");
+                System.out.println("You have landed on the field Cold Desert and receive 20 coins");
                 accountPlayerTwo.SubbFromAccount(20);
             }
 
             if (diePlayerTwo.Sum() == 6) {
-                System.out.println("Walled city");
+                System.out.println("You have landed on the field Walled city and receive 180 coins");
                 accountPlayerTwo.AddToAccount(180);
             }
 
