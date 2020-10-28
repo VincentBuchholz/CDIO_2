@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.Scanner;
 public class Game {
     public static void main(String[] args) {
-        System.out.println("Welcome to the game");
+        System.out.println("Welcome to the game!");
 
         Scanner input = new Scanner(System.in);
 
