@@ -50,22 +50,22 @@ public class Game {
             }
 
             if (diePlayerOne.Sum() == 3) {
-                System.out.println("You have landed on the field Crater and receive 100 coins");
+                System.out.println("You have landed on the field Crater and lose 100 coins");
                 accountPlayerOne.SubbFromAccount(100);
             }
 
             if (diePlayerOne.Sum() == 4) {
-                System.out.println("You have landed on the field Palace gates and receive 100 coins");
+                System.out.println("You have landed on the field Palace Gates and receive 100 coins");
                 accountPlayerOne.AddToAccount(100);
             }
 
             if (diePlayerOne.Sum() == 5) {
-                System.out.println("You have landed on the field Cold Desert and receive 20 coins");
+                System.out.println("You have landed on the field Cold Desert and lose 20 coins");
                 accountPlayerOne.SubbFromAccount(20);
             }
 
             if (diePlayerOne.Sum() == 6) {
-                System.out.println("You have landed on the field Walled city and receive 180 coins");
+                System.out.println("You have landed on the field Walled City and receive 180 coins");
                 accountPlayerOne.AddToAccount(180);
             }
 
