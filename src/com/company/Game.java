@@ -78,36 +78,36 @@ public class Game {
                 }
 
                 if (diePlayerOne.Sum() == 7) {
-                    System.out.println("Monastery");
+                    System.out.println("You have landed on the field Monastery and receive nothing");
                     playerOneExtraTurn = false;
                 }
 
                 if (diePlayerOne.Sum() == 8) {
-                    System.out.println("Black cave");
+                    System.out.println("You have landed on the field Black Cave and lose 70 coins");
                     accountPlayerOne.SubbFromAccount(70);
                     playerOneExtraTurn = false;
                 }
 
                 if (diePlayerOne.Sum() == 9) {
-                    System.out.println("Huts in the mountain");
+                    System.out.println("You have landed on the field Huts in the Mountain and receive 60 coins");
                     accountPlayerOne.AddToAccount(60);
                     playerOneExtraTurn = false;
                 }
 
                 if (diePlayerOne.Sum() == 10) {
-                    System.out.println("The Werewall (werewolf-wall)");
+                    System.out.println("You have landed on the field The Werewall (werewolf-wall) and lose 80 points but you get an extra turn");
                     accountPlayerOne.SubbFromAccount(80);
                     playerOneExtraTurn = true;
                 }
 
                 if (diePlayerOne.Sum() == 11) {
-                    System.out.println("The pit");
+                    System.out.println("You have landed on the field The Pit and lose 50 coins");
                     accountPlayerOne.SubbFromAccount(50);
                     playerOneExtraTurn = false;
                 }
 
                 if (diePlayerOne.Sum() == 12) {
-                    System.out.println("Goldmine");
+                    System.out.println("You have landed on the field Goldmine and receive 650 coins");
                     accountPlayerOne.AddToAccount(650);
                     playerOneExtraTurn = false;
                 }
@@ -164,36 +164,36 @@ public class Game {
                 }
 
                 if (diePlayerTwo.Sum() == 7) {
-                    System.out.println("Monastery");
+                    System.out.println("You have landed on the field Monastery and receive nothing");
                     playerTwoExtraTurn = false;
                 }
 
                 if (diePlayerTwo.Sum() == 8) {
-                    System.out.println("Black cave");
+                    System.out.println("You have landed on the field Black Cave and lose 70 coins");
                     accountPlayerTwo.SubbFromAccount(70);
                     playerTwoExtraTurn = false;
                 }
 
                 if (diePlayerTwo.Sum() == 9) {
-                    System.out.println("Huts in the mountain");
+                    System.out.println("You have landed on the field Huts in the Mountain and receive 60 coins");
                     accountPlayerTwo.AddToAccount(60);
                     playerTwoExtraTurn = false;
                 }
 
                 if (diePlayerTwo.Sum() == 10) {
-                    System.out.println("The Werewall (werewolf-wall)");
+                    System.out.println("You have landed on the field The Werewall (werewolf-wall) and lose 80 points but you get an extra turn");
                     accountPlayerTwo.SubbFromAccount(80);
                     playerTwoExtraTurn = true;
                 }
 
                 if (diePlayerTwo.Sum() == 11) {
-                    System.out.println("The pit");
+                    System.out.println("You have landed on the field The Pit and lose 50 coins");
                     accountPlayerTwo.SubbFromAccount(50);
                     playerTwoExtraTurn = false;
                 }
 
                 if (diePlayerTwo.Sum() == 12) {
-                    System.out.println("Goldmine");
+                    System.out.println("You have landed on the field Goldmine and receive 650 coins");
                     accountPlayerTwo.AddToAccount(650);
                     playerTwoExtraTurn = false;
                 }
