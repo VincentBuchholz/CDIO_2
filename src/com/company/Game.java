@@ -45,7 +45,7 @@ public class Game {
 
 
             if (diePlayerOne.Sum() == 2) {
-                System.out.println("Tower");
+                System.out.println("You have landed on the field Tower and receive 250 coins");
                 accountPlayerOne.AddToAccount(250);
             }
 
@@ -118,7 +118,7 @@ public class Game {
             }
 
             if (diePlayerTwo.Sum() == 2) {
-                System.out.println("Tower");
+                System.out.println("You have landed on the field Tower and receive 250 coins");
                 accountPlayerTwo.AddToAccount(250);
             }
 
