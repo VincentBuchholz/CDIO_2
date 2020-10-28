@@ -32,9 +32,11 @@ public class Game {
         System.out.println(x);
 
         //Her er spillet:
+        boolean playerOneExtraTurn = true;
+        boolean playerTwoExtraTurn = true;
+
         do {
-            boolean playerOneExtraTurn = true;
-            boolean playerTwoExtraTurn = true;
+
             //player one
             do {
                 System.out.print(playerOne + " it's your turn, press enter to roll the dice!: ");
