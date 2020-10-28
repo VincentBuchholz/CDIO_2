@@ -3,6 +3,7 @@ import com.company.Account;
 import com.company.Player;
 import java.util.Random;
 import java.util.Scanner;
+
 public class Game {
     public static void main(String[] args) {
         System.out.println("Welcome to the game!");
@@ -34,7 +35,7 @@ public class Game {
         do{
 
             //player one
-            System.out.print(playerOne + " it's your turn, press enter to roll the dice: ");
+            System.out.print(playerOne + " it's your turn, press enter to roll the dice!: ");
             String roll1 = input.nextLine();
 
 
