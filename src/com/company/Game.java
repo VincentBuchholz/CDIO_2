@@ -116,10 +116,9 @@ public class Game {
 
                 if (accountPlayerOne.getBalance() >= 3000) {
                     System.out.println(playerOne + " you win!");
-                    playerOneExtraTurn = false;
                     break;
                 }
-            } while (playerOneExtraTurn == true);
+            } while (playerTwoExtraTurn == true);
 
 
             //player two
@@ -202,7 +201,6 @@ public class Game {
 
                 if (accountPlayerTwo.getBalance() >= 3000) {
                     System.out.println(playerTwo + " you win!");
-                    playerTwoExtraTurn = false;
                     break;
                 }
             } while (playerTwoExtraTurn == true);
